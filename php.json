@@ -1,0 +1,22 @@
+{
+	"Public function": {
+		"prefix": "pub",
+		"body": [
+			"public function $1($2)",
+			"{",
+				"\t$3",
+			"}"
+		],
+		"description": "public function"
+	},
+	"Private function": {
+		"prefix": "pri",
+		"body": [
+			"private function $1($2)",
+			"{",
+				"\t$3",
+			"}"
+		],
+		"description": "private function"
+	}
+}
